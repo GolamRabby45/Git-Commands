@@ -17,17 +17,19 @@ git log --oneline -5
 git branch branch_name
 git checkout branch_name 
 git checkout -b branch
-git branch -d branch
+
 git diff master..anotherbranch
-git branch --merged
-git branch --no-merged
 git help branch
 git log --oneline -5 
 git log master --oneline -5
+
+git branch -a
+git branch -d branch
+git branch --merged
+git branch --no-merged
+
 git merge --abort
 git merge branch-name
-git branch -a
-
 cat .git/HEAD
 
 
